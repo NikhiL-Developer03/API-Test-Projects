@@ -198,17 +198,6 @@ http://localhost:3000
    - Description: Transfers money between two accounts
    - Response: Object with updated source and destination account information
 
-### Testing Flow
-
-For the most effective testing in Postman:
-
-1. First create books and bank accounts using the POST endpoints
-2. Then use the GET endpoints to verify they were created correctly
-3. Test the functionality with the PUT endpoints (borrow/return books, deposit/withdraw/transfer money)
-4. Verify the changes with GET endpoints
-
-You can use Postman or another API testing tool to test these endpoints.
-
 ## Project Structure
 
 ```
